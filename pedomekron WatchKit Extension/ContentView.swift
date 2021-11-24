@@ -29,14 +29,13 @@ extension UIColor {
 }
 
 struct ContentView: View {
-   
-    /// Provides to create an instance of the CMPedometer.
+
     private let pedometer = CMPedometer()
     @State private var steps: Int?
+    @State private var showingAlert = true
     
     // startUpdates crea un thread in bg che viene chiamato automaticamente quando ci sono nuovi dati
     private func startQueryingPedometer(){
-                
         pedometer.startUpdates(from: Calendar(identifier: .gregorian).startOfDay(for: Date())) { pedometerData, error in
             guard let pedometerData = pedometerData, error == nil else { return }
             steps = pedometerData.numberOfSteps.intValue
@@ -57,7 +56,13 @@ struct ContentView: View {
                 )
         }
         .background(Color(UIColor(hexString: "#70B070")).ignoresSafeArea())
-        .onAppear{ startQueryingPedometer() }
+        .alert("Made with ❤️ by @samuele_pe", isPresented: $showingAlert) {
+                   Button("💕💕", role: .cancel) { }
+               }
+        .onAppear{
+
+            startQueryingPedometer()
+        }
     }
 
 }

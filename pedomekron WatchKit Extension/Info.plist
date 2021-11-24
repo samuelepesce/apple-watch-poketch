@@ -7,7 +7,7 @@
 		<string>poketch-clock-numeral.ttf</string>
 	</array>
 	<key>NSMotionUsageDescription</key>
-	<string>Track steps</string>
+	<string>Show you the number of steps</string>
 	<key>   UIScrollView.appearance().bounces = false
 </key>
 	<string></string>
