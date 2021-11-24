@@ -3,6 +3,7 @@
 //  pedomekron WatchKit Extension
 //
 //  Created by Samuele Pesce on 22/11/21.
+//  Follow me on tiktok @samuele_pe <3
 //
 
 import SwiftUI
