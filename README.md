@@ -1,4 +1,6 @@
-[Imgur mockup](https://i.imgur.com/KVNB4Jv.jpg)
+## Preview
+
+<img alt="imgur link" src="https://i.imgur.com/KVNB4Jv.jpg" style="width:30%">
 
 ## apple-watch-poketch ⌚️⚡️
 This is a fan-made project that is not endorsed nor licensed by Nintendo \ TPCI. The project could be closed or discontinued without any notice. <br>
