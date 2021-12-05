@@ -18,6 +18,8 @@
 		4B60A2ED274BDD74001ADC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B60A2EC274BDD74001ADC59 /* Assets.xcassets */; };
 		4B60A2F0274BDD74001ADC59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B60A2EF274BDD74001ADC59 /* Preview Assets.xcassets */; };
 		4B60A301274BE6BC001ADC59 /* poketch-clock-numeral.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B60A300274BE6BC001ADC59 /* poketch-clock-numeral.ttf */; };
+		4BAFABD72757C3BF004B9DC1 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFABD62757C3BF004B9DC1 /* ClockView.swift */; };
+		4BAFABD92757C7A1004B9DC1 /* StepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFABD82757C7A1004B9DC1 /* StepView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		4B60A2F1274BDD74001ADC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B60A2F2274BDD74001ADC59 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		4B60A300274BE6BC001ADC59 /* poketch-clock-numeral.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poketch-clock-numeral.ttf"; sourceTree = "<group>"; };
+		4BAFABD62757C3BF004B9DC1 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		4BAFABD82757C7A1004B9DC1 /* StepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +124,10 @@
 		4B60A2E1274BDD73001ADC59 /* pedomekron WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4B60A2E4274BDD73001ADC59 /* ContentView.swift */,
+				4BAFABCF2757BDBC004B9DC1 /* Views */,
 				4B60A300274BE6BC001ADC59 /* poketch-clock-numeral.ttf */,
 				4B60A2E2274BDD73001ADC59 /* pedomekronApp.swift */,
-				4B60A2E4274BDD73001ADC59 /* ContentView.swift */,
 				4B60A2E6274BDD73001ADC59 /* NotificationController.swift */,
 				4B60A2E8274BDD73001ADC59 /* NotificationView.swift */,
 				4B60A2EA274BDD73001ADC59 /* ComplicationController.swift */,
@@ -140,6 +145,15 @@
 				4B60A2EF274BDD74001ADC59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BAFABCF2757BDBC004B9DC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BAFABD82757C7A1004B9DC1 /* StepView.swift */,
+				4BAFABD62757C3BF004B9DC1 /* ClockView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B60A2E7274BDD73001ADC59 /* NotificationController.swift in Sources */,
+				4BAFABD72757C3BF004B9DC1 /* ClockView.swift in Sources */,
 				4B60A2E5274BDD73001ADC59 /* ContentView.swift in Sources */,
 				4B60A2EB274BDD73001ADC59 /* ComplicationController.swift in Sources */,
 				4B60A2E3274BDD73001ADC59 /* pedomekronApp.swift in Sources */,
+				4BAFABD92757C7A1004B9DC1 /* StepView.swift in Sources */,
 				4B60A2E9274BDD73001ADC59 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
