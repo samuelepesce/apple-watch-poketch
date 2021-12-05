@@ -1,7 +1,8 @@
 ## Preview
+<div style="float:left">
 <img alt="imgur link" src="https://i.imgur.com/KVNB4Jv.jpg" style="width:30%">
-<img alt="imgur link" src="https://i.imgur.com/NFGKy99.jpg" style="width:30%">
-
+<img alt="imgur link" src="https://i.imgur.com/mzycCn7.jpg" style="width:30%">
+</div>
 Mockups made with: https://previewed.app/template/8172DFFA
 
 ## Poketch for Apple Watch  ⌚️⚡️
