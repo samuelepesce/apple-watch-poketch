@@ -9,6 +9,8 @@ import SwiftUI
 import CoreMotion
 
 struct StepView: View {
+    @EnvironmentObject var colors: GlobalColors
+    
     private let pedometer = CMPedometer()
     @State private var steps: Int?
     @State private var hasQueried = false
@@ -30,7 +32,10 @@ struct StepView: View {
         Text("\(steps ?? 0)")
             .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
             .font(Font.custom("poketch-clock-numeral", size: 30))
-            .foregroundColor(Color(UIColor(hexString: "#102818")))
+            .foregroundColor(Color(UIColor(hexString: colors.Foreground())))
+            .background(
+                RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Color(UIColor(hexString: colors.Background())))
+            )
             .overlay(RoundedRectangle(cornerRadius: 16)
                         .stroke(Color(UIColor(hexString: "#508050")), lineWidth: 4)
             )

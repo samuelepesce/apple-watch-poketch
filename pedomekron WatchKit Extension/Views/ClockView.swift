@@ -9,6 +9,9 @@ import SwiftUI
 
 
 struct ClockView: View {
+    @EnvironmentObject var colors: GlobalColors
+    
+    
     let dF : DateFormatter
     @State private var today = Date()
     
@@ -25,8 +28,14 @@ struct ClockView: View {
                 today = _input
             })
             .font(Font.custom("poketch-clock-numeral", size: 40))
-            .foregroundColor(Color(UIColor(hexString: "#102818")))
-            .padding()
+            .padding(16)
+            .foregroundColor(Color(UIColor(hexString: colors.Foreground())))
+            .background(
+                RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Color(UIColor(hexString: colors.Background())))
+            )
+            .overlay(RoundedRectangle(cornerRadius: 16)
+                        .stroke(Color(UIColor(hexString: colors.Border())), lineWidth: 4)
+            )
     }
 }
 
