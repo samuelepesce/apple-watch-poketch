@@ -2,6 +2,9 @@
 <div style="float:left">
 <img alt="imgur link" src="https://i.imgur.com/KVNB4Jv.jpg" style="width:30%">
 <img alt="imgur link" src="https://i.imgur.com/mzycCn7.jpg" style="width:30%">
+<a href="https://ibb.co/6PpvJ9r"><img src="https://i.ibb.co/swD5Jxb/image1.jpg" style="width:30%" alt="image1" border="0"></a>
+<a href="https://ibb.co/dfxxG4z"><img src="https://i.ibb.co/grhhzZB/image1-2.jpg" style="width:30%" alt="image1-2" border="0"></a>
+<a href="https://ibb.co/gtwx57R"><img src="https://i.ibb.co/XFpqh4C/image1-3.jpg"  style="width:30%" alt="image1-3" border="0"></a>
 </div>
 Mockups made with: https://previewed.app/template/8172DFFA
 
